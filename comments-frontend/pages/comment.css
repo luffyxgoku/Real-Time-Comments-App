@@ -1,0 +1,37 @@
+.comments-container {
+  min-height: 100vh;
+  text-align: center;
+  background: linear-gradient(to bottom right, #a2d2ff, #cdb4db);
+}
+.msg-input-container {
+  position: fixed;
+  bottom: 2vw;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+.comment-lists-container {
+  height: 75vh;
+  overflow-y: scroll;
+  padding-bottom: 2vw;
+  box-sizing: border-box;
+  margin-left: 2vh;
+}
+.comment-lists-container::-webkit-scrollbar {
+  display: none;
+}
+.timestamp {
+  margin-left: 5vh;
+}
+
+.usernamestyle {
+  font-size: 3vh;
+  font-weight: bold;
+  margin-right: 1vh;
+}
+
+.commentstyle {
+  font-size: 3vh;
+  font-weight: lighter;
+  /* margin-left: 1vh; */
+}
